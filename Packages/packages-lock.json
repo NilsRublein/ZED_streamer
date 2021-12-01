@@ -1,5 +1,22 @@
 {
   "dependencies": {
+    "com.halodi.halodi-unity-package-registry-manager": {
+      "version": "https://github.com/Halodi/halodi-unity-package-registry-manager.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
+        "com.unity.sharp-zip-lib": "1.2.2-preview.1"
+      },
+      "hash": "725909e5817f3bc39d75df339ec152577154cb6d"
+    },
+    "com.tno.udpstreamer": {
+      "version": "https://unity_access:sS98iDKjkyS3reoTy_bT@ci.tno.nl/gitlab/xprize-avatar/udp-streamer/csharp_udp_streamer.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "1a23652da7edbee417ccf969b4affffbda24ad72"
+    },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
@@ -35,6 +52,29 @@
     "com.unity.ide.vscode": {
       "version": "1.2.3",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.postprocessing": {
+      "version": "3.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.sharp-zip-lib": {
+      "version": "1.2.2-preview.1",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

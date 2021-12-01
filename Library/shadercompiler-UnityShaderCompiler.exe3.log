@@ -1,2 +1,6 @@
 Base path: 'D:/Unity Editors/2019.4.28f1/Editor/Data', plugins path 'D:/Unity Editors/2019.4.28f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 2 plat 4 at stuff/ZED_STREAMER_V5/AutoExposure.compute(93): array, matrix, vector, or indexable object type expected in index expression
+  api=4 insize=3667 outsize=0 ok=0
+Cmd: shutdown
